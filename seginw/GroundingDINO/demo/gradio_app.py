@@ -16,7 +16,7 @@ import torch
 # prepare the environment
 os.system("python setup.py build develop --user")
 os.system("pip install packaging==21.3")
-os.system("pip install gradio")
+os.system("pip install gradio==3.50.2")
 
 
 warnings.filterwarnings("ignore")
@@ -33,7 +33,7 @@ from huggingface_hub import hf_hub_download
 
 
 
-# Use this command for evaluate the GLIP-T model
+# Use this command for evaluate the Grounding DINO model
 config_file = "groundingdino/config/GroundingDINO_SwinT_OGC.py"
 ckpt_repo_id = "ShilongLiu/GroundingDINO"
 ckpt_filenmae = "groundingdino_swint_ogc.pth"

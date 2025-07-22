@@ -531,7 +531,7 @@ def evaluate(args, net, sam, valid_dataloaders, visualize=False):
         valid_dataloader = valid_dataloaders[k]
         print('valid_dataloader len:', len(valid_dataloader))
 
-        for data_val in metric_logger.log_every(valid_dataloader,1000):
+        for data_val in metric_logger.log_every(valid_dataloader,2):
             imidx_val, inputs_val, labels_val, shapes_val, labels_ori = data_val['imidx'], data_val['image'], data_val['label'], data_val['shape'], data_val['ori_label']
 
             if torch.cuda.is_available():
