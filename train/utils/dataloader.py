@@ -255,10 +255,10 @@ class OnlineDataset(Dataset):
         gt = torch.unsqueeze(torch.tensor(gt, dtype=torch.float32),0)
 
         sample = {
-        "imidx": torch.from_numpy(np.array(idx)),
-        "image": im,
-        "label": gt,
-        "shape": torch.tensor(im.shape[-2:]),
+            "imidx": torch.from_numpy(np.array(idx)),
+            "image": im,
+            "label": gt,
+            "shape": torch.tensor(im.shape[-2:]),
         }
         
         if self.transform:

@@ -1,7 +1,7 @@
 import torch
 from torch.nn import functional as F
 from typing import List, Optional
-import utils.misc as misc
+import train.utils.misc as misc
 
 def point_sample(input, point_coords, **kwargs):
     """

@@ -10,3 +10,6 @@ __pycache__/
 *.pyzwz
 */seginw_output/
 */logs/
+*/dist/*
+*/build/*
+*.egg-info/*

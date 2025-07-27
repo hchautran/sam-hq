@@ -71,3 +71,16 @@ segment_anything/utils/__init__.py
 segment_anything/utils/amg.py
 segment_anything/utils/onnx.py
 segment_anything/utils/transforms.py
+train/__init__.py
+train/train.py
+train/segment_anything_training/__init__.py
+train/segment_anything_training/build_sam.py
+train/segment_anything_training/modeling/__init__.py
+train/segment_anything_training/modeling/common.py
+train/segment_anything_training/modeling/image_encoder.py
+train/segment_anything_training/modeling/mask_decoder.py
+train/segment_anything_training/modeling/prompt_encoder.py
+train/segment_anything_training/modeling/sam.py
+train/segment_anything_training/modeling/transformer.py
+train/segment_anything_training/utils/__init__.py
+train/segment_anything_training/utils/transforms.py
